@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SingleCellCourse - About</title>
+<title>SingleCellCourse - Installation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./install.html" rel="" target="">
+    <a class="nav-link active" href="./install.html" rel="" target="" aria-current="page">
  <span class="menu-text">Installation</span></a>
   </li>  
   <li class="nav-item">
@@ -151,14 +151,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#installing-r-and-rstudio" id="toc-installing-r-and-rstudio" class="nav-link active" data-scroll-target="#installing-r-and-rstudio">Installing R and RStudio</a>
+  <ul>
+  <li><a href="#download-and-install-r" id="toc-download-and-install-r" class="nav-link" data-scroll-target="#download-and-install-r">Download and Install R</a></li>
+  <li><a href="#install-extras" id="toc-install-extras" class="nav-link" data-scroll-target="#install-extras">Install extras</a></li>
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link" data-scroll-target="#rstudio">RStudio</a></li>
+  </ul></li>
+  <li><a href="#installing-packages" id="toc-installing-packages" class="nav-link" data-scroll-target="#installing-packages">Installing packages</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Installation</h1>
 </div>
 
 
@@ -173,15 +185,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>About this site</p>
+<section id="installing-r-and-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="installing-r-and-rstudio">Installing R and RStudio</h2>
+<p><img src="images/clipboard-4288920375.png" class="img-fluid"></p>
+<section id="download-and-install-r" class="level3">
+<h3 class="anchored" data-anchor-id="download-and-install-r">Download and Install R</h3>
+<p>We need you to work on R version 4.4.0 or later for this course. If you have a previous version of R please remove it before you install this version. Please check before that your computer meets the requirements of the software.</p>
+<ul>
+<li><p>From a University managed computer: Use the Install University Applications functionality. Note that this only works if you are on campus or if you are using VPN to connect to the University. If you do not have access via VPN you can set it up following CSD advice. Alternatively, you can follow the options below.&nbsp;</p></li>
+<li><p>For windows users: <a href="https://cran.r-project.org/bin/windows/base/old/4.4.1/R-4.4.1-win.exe">R v4.4.1</a></p></li>
+<li><p>For macOS users: <a href="https://cran.r-project.org/bin/macosx/base/R-4.4.1.pkg">R v4.4.1</a></p></li>
+</ul>
+</section>
+<section id="install-extras" class="level3">
+<h3 class="anchored" data-anchor-id="install-extras">Install extras</h3>
+<ul>
+<li><p>We will be installing some package which require compiling from the source code. To do this:</p></li>
+<li><p>If you are working on Windows you will need to install <a href="https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe">Rtools</a></p></li>
+<li><p>If you are working on macOS you should have installed XQuartz (but check before installing it as you may already have it)</p></li>
+</ul>
+</section>
+<section id="rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="rstudio">RStudio</h3>
+<p>Download and install (or update) <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a></p>
+</section>
+</section>
+<section id="installing-packages" class="level2">
+<h2 class="anchored" data-anchor-id="installing-packages">Installing packages</h2>
+<ul>
+<li><p>Open RStudio Download this <a href="install.zip">zip file</a> and unzip it.</p></li>
+<li><p>Set your working directory to where you have unzipped that download zip file.</p></li>
+</ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"C:/Projects/SingleCellCourse"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<ul>
+<li><p>Open the install.R script in RStudio</p></li>
+<li><p>Press the Source button (see picture below) which will trigger the installation of all packages needed to undertake the course materials.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/source.png" class="img-fluid figure-img"></p>
+</figure>
 </div>
+<ul>
+<li>The process might be lengthy so do not worry, you can leave the computer unattended while the installation continues.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

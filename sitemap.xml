@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/install.html</loc>
+    <lastmod>2024-09-04T09:17:09.421Z</lastmod>
+  </url>
+  <url>
     <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/index.html</loc>
-    <lastmod>2024-09-04T07:15:03.664Z</lastmod>
+    <lastmod>2024-09-04T09:17:09.797Z</lastmod>
   </url>
   <url>
     <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/about.html</loc>
-    <lastmod>2024-09-04T07:15:04.804Z</lastmod>
+    <lastmod>2024-09-04T09:17:11.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/schedule.html</loc>
+    <lastmod>2024-09-04T09:17:11.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/resources.html</loc>
+    <lastmod>2024-09-04T09:17:11.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/help.html</loc>
+    <lastmod>2024-09-04T09:17:11.917Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CBFLivUni.github.io/SingleCellCourseWebsite/extra.html</loc>
+    <lastmod>2024-09-04T09:17:12.221Z</lastmod>
   </url>
 </urlset>

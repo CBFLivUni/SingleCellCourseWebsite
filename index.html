@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SingleCellCourseWebsite - Single Cell RNASeq course</title>
+<title>SingleCellCourse - CBF Single Cell Sequencing course</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">SingleCellCourseWebsite</span>
+    <span class="navbar-title">SingleCellCourse</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -86,8 +86,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./install.html" rel="" target="">
+ <span class="menu-text">Installation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html" rel="" target="">
+ <span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./help.html" rel="" target="">
+ <span class="menu-text">Help</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./extra.html" rel="" target="">
+ <span class="menu-text">Extra Resources</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -105,10 +121,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-the-cbf-site-for-the-course-single-cell-rnaseq-course" id="toc-welcome-to-the-cbf-site-for-the-course-single-cell-rnaseq-course" class="nav-link active" data-scroll-target="#welcome-to-the-cbf-site-for-the-course-single-cell-rnaseq-course"><strong>Welcome to the CBF site for the course</strong> Single Cell RNASeq course<strong>!</strong></a>
-  <ul class="collapse">
-  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><strong>Welcome</strong></a></li>
+  <li><a href="#before-the-course" id="toc-before-the-course" class="nav-link" data-scroll-target="#before-the-course">Before the course</a>
+  <ul>
+  <li><a href="#install-software" id="toc-install-software" class="nav-link" data-scroll-target="#install-software">Install software</a></li>
+  <li><a href="#recap" id="toc-recap" class="nav-link" data-scroll-target="#recap">Recap</a></li>
+  <li><a href="#check-hardware" id="toc-check-hardware" class="nav-link" data-scroll-target="#check-hardware">Check Hardware</a></li>
   </ul></li>
+  <li><a href="#during-the-course" id="toc-during-the-course" class="nav-link" data-scroll-target="#during-the-course">During the course</a></li>
   </ul>
 </nav>
     </div>
@@ -117,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Single Cell RNASeq course</h1>
+<h1 class="title">CBF Single Cell Sequencing course</h1>
 </div>
 
 
@@ -132,32 +152,43 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome-to-the-cbf-site-for-the-course-single-cell-rnaseq-course" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-the-cbf-site-for-the-course-single-cell-rnaseq-course"><strong>Welcome to the CBF site for the course</strong> Single Cell RNASeq course<strong>!</strong></h2>
-<p>This site has been created by the CBF to enable the delegates of the Single Cell RNASeq course to access all materials and resources. If you have not registered for the course yet please do contact the CBF for support at cbf@liverpool.ac.uk</p>
-<section id="instructions" class="level3">
-<h3 class="anchored" data-anchor-id="instructions">Instructions</h3>
-<p>We need you to install various pieces of software for the course. Please follow the instructions below. It is paramount you do this prior to the start of the course as it will allow you to focus entirely on the contents. Note that we assume a basic level of R, equivilent to our R for Beginners course.</p>
-<p><strong>Note that to fully access support we might need to engage in 1-1 calls &amp; use the share screen functionality and as such you should have a microphone so we can hear you. Most laptops have in-built microphone/camera but if you work on a desktop PC you might need to plug in an external microphone</strong> or use an alternative device for communicating (e.g.&nbsp;tablet/phone).</p>
-<ol type="1">
-<li><p>Turn on your computer and log in as you would normally do. Check that you are connected to the Internet. Please save all the files that have been sent to you in your folder of choice. Make sure you read them all.&nbsp;</p></li>
-<li><p>Download and Install R. We need you to work on R version 4.4.0 or later for this course. If you have a previous version of R please remove it before you install this version. Please check before that your computer meets the requirements of the software.&nbsp;</p>
-<ol type="1">
-<li><p>From a University managed computer: Use the Install University Applications functionality. Note that this only works if you are on campus or if you are using VPN to connect to the University. If you do not have access via VPN you can set it up following CSD advice. Alternatively, you can follow the options below.&nbsp;</p></li>
-<li><p>For windows users: <a href="https://cran.r-project.org/bin/windows/base/old/4.2.0/R-4.2.0-win.exe" class="uri">https://cran.r-project.org/bin/windows/base/old/4.2.0/R-4.2.0-win.exe</a>&nbsp;</p></li>
-<li><p>For macOS users:<a href="https://cran.r-project.org/bin/macosx/base/R-4.1.0.pkg"></a><a href="https://cran.r-project.org/bin/macosx/base/R-4.2.0.pkg" class="uri">https://cran.r-project.org/bin/macosx/base/R-4.2.0.pkg</a>&nbsp;</p></li>
-</ol></li>
-<li><p>Additionally:</p>
-<ol type="1">
-<li><p>If you are working on Windows you will need to install Rtools:<a href="https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe">https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe</a>&nbsp;</p></li>
-<li><p>If you are working on macOS you should have installed <a href="https://www.xquartz.org/">&nbsp;XQuartz</a> (but check before installing it as you may already have it)</p></li>
-</ol></li>
-<li><p>Download and Install Posit RStudio Desktop (free):<a href="https://www.rstudio.com/products/rstudio/download/#download">https://www.rstudio.com/products/rstudio/download/#download</a>&nbsp;</p></li>
-<li><p>Open RStudio. Download this file&nbsp; <a href="https://drive.google.com/file/d/1r0651i0R8fHGWdWk3pwMN2hRVuYK_CPX/view?usp=sharing">Install_Packages_Beginners</a> and open it in RStudio. Press Source (see image below). This will trigger the installation of all packages needed to undertake the course materials. The process might be lengthy so do not worry, you can leave the computer unattended while the installation continues.</p></li>
-</ol>
-
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/logoCBF.png" class="img-fluid figure-img" width="259"></p>
+</figure>
+</div>
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome"><strong>Welcome</strong></h2>
+<p>Welcome to the Single Cell RNASeq course! This site has been created by the CBF to enable the delegates of the Single Cell RNASeq course to get started on the course. If you have not registered for the course yet please do contact the CBF for support at cbf@liverpool.ac.uk</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/umap.png" class="img-fluid figure-img" alt="A UMAP of single cell sequencing data" width="500"></p>
+</figure>
+</div>
 </section>
+<section id="before-the-course" class="level2">
+<h2 class="anchored" data-anchor-id="before-the-course">Before the course</h2>
+<p>You need to do the following before the course starts.</p>
+<section id="install-software" class="level3">
+<h3 class="anchored" data-anchor-id="install-software">Install software</h3>
+<p>We need you to install various pieces of software for the course. Please follow the instructions in the install page to do this. It is paramount you do this prior to the start of the course as it will allow you to focus entirely on the contents. Note that we assume a basic level of R, equivalent to our R for Beginners course.</p>
+</section>
+<section id="recap" class="level3">
+<h3 class="anchored" data-anchor-id="recap">Recap</h3>
+<p>We will provide an optional recap of R basics that covers a lot of the R functions and concepts we will use in the course. We recommend spending some time refreshing your memory about R to allow you to focus learning about single cell sequencing.</p>
+</section>
+<section id="check-hardware" class="level3">
+<h3 class="anchored" data-anchor-id="check-hardware">Check Hardware</h3>
+<p>Note that to fully access support we might need to engage in 1-1 calls &amp; use the share screen functionality and as such you should have a microphone so we can hear you. Most laptops have in-built microphone/camera but if you work on a desktop PC you might need to plug in an external microphone or use an alternative device for communicating (e.g.&nbsp;tablet/phone).</p>
+</section>
+</section>
+<section id="during-the-course" class="level2">
+<h2 class="anchored" data-anchor-id="during-the-course">During the course</h2>
+<p>All the communications during the course will be done in our Microsoft Teams group. You will be provided with the link to access the group before the course starts.</p>
+<p>As you join the Microsoft Teams group please say hello to all in channel <code>Welcome and Live sessions</code> and introduce yourself. Tell us where you are based and if possible, something you like doing in your free time too 😊.</p>
+<p>The materials for the course will be accessed through a link that will be posted in the Microsoft Teams group together with some instructions on how to download them on the first day of the course.</p>
+
+
 </section>
 
 </main> <!-- /main -->
