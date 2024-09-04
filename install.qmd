@@ -18,9 +18,9 @@ We need you to work on R version 4.4.0 or later for this course. If you have a p
 
 ### Install extras
 
--   We will be installing some package which require compiling from the source code. To do this:
+We will be installing some R packages which require compiling from the source code. To do this:
 
--   If you are working on Windows you will need to install [Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe)
+-   If you are working on Windows you will need to install [Rtools v 4.4](https://cran.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6104-6039.exe)
 
 -   If you are working on macOS you should have installed XQuartz (but check before installing it as you may already have it)
 
