@@ -3,7 +3,7 @@
 #### About
 Source code for a Quarto based website for CBF single cell course delegates.
 
-[Website](https://cbflivuni.github.io/SingleCellCourseWebsite/)>
+[Website](https://cbflivuni.github.io/SingleCellCourseWebsite/)
 
 
 ### Updating the website
