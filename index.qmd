@@ -1,0 +1,33 @@
+---
+title: "Single Cell RNASeq course"
+---
+
+## **Welcome to the CBF site for the course** Single Cell RNASeq course**!** 
+
+This site has been created by the CBF to enable the delegates of the Single Cell RNASeq course to access all materials and resources. If you have not registered for the course yet please do contact the CBF for support at cbf\@liverpool.ac.uk
+
+### Instructions
+
+We need you to install various pieces of software for the course. Please follow the instructions below. It is paramount you do this prior to the start of the course as it will allow you to focus entirely on the contents. Note that we assume a basic level of R, equivilent to our R for Beginners course.
+
+**Note that to fully access support we might need to engage in 1-1 calls & use the share screen functionality and as such you should have a microphone so we can hear you. Most laptops have in-built microphone/camera but if you work on a desktop PC you might need to plug in an external microphone** or use an alternative device for communicating (e.g. tablet/phone).
+
+1.  Turn on your computer and log in as you would normally do. Check that you are connected to the Internet. Please save all the files that have been sent to you in your folder of choice. Make sure you read them all. 
+
+2.  Download and Install R. We need you to work on R version 4.4.0 or later for this course. If you have a previous version of R please remove it before you install this version. Please check before that your computer meets the requirements of the software. 
+
+    1.  From a University managed computer: Use the Install University Applications functionality. Note that this only works if you are on campus or if you are using VPN to connect to the University. If you do not have access via VPN you can set it up following CSD advice. Alternatively, you can follow the options below. 
+
+    2.  For windows users: <https://cran.r-project.org/bin/windows/base/old/4.2.0/R-4.2.0-win.exe> 
+
+    3.  For macOS users:[ ](https://cran.r-project.org/bin/macosx/base/R-4.1.0.pkg)<https://cran.r-project.org/bin/macosx/base/R-4.2.0.pkg> 
+
+3.  Additionally:
+
+    1.  If you are working on Windows you will need to install Rtools:[ https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe](https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe) 
+
+    2.  If you are working on macOS you should have installed [ XQuartz](https://www.xquartz.org/) (but check before installing it as you may already have it)
+
+4.  Download and Install Posit RStudio Desktop (free):[ https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download) 
+
+5.  Open RStudio. Download this file  [Install_Packages_Beginners](https://drive.google.com/file/d/1r0651i0R8fHGWdWk3pwMN2hRVuYK_CPX/view?usp=sharing) and open it in RStudio. Press Source (see image below). This will trigger the installation of all packages needed to undertake the course materials. The process might be lengthy so do not worry, you can leave the computer unattended while the installation continues.
