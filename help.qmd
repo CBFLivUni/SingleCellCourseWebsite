@@ -1,0 +1,23 @@
+---
+title: "Help"
+---
+
+Most of the content of the course can be undertaken at your own pace. We recommend you stick to the schedule proposed, but if you need to spend more time in a particular section feel free to do so. We will be working in Microsoft Teams in the group called XXXXXX. You will need to have a microphone to communicate effectively. This group has a number of channels:
+
+`General`: this channel will be used only by course leaders to provide any message relevant to the whole cohort. Please do check any notifications in this channel.
+
+`Installation and packages`: This channel is available to ask support/questions with any problems regarding installations of software prior to the course.
+
+`Welcome and Live sessions`: you will use this channel to confirm you have joined the team. Live session meetings will be launched from this channel including the link for all to join the conversation
+
+`Channels 2 to 6` are reserved to request help during specific sections of the course. Whenever you encounter a problem during a practical you should write “I need a chat” in the relevant channel. A member of our team will then reply to you and engage in a 1-1 conversation where would be able to assist you further.
+
+`Networking` - new channel to let you interact with your peers - just fun stuff :)
+
+### Requested support
+
+1.  Identify the channel that best comprises the work you are doing
+
+2.  Write “I need a chat” in the channel.
+
+3.  A demonstrator will reply to you and will engage on a 1-1 video call. Microsoft Teams allows users to share their screens in a call.

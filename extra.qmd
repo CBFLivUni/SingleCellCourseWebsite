@@ -1,0 +1,22 @@
+---
+  title: "Extra Resources"
+---
+
+## Getting help
+
+Aside from this course there are a number of forums where you can ask search past questions and ask for help.
+
+::: callout-tip
+### Reproducible examples
+
+On forums you won't be sharing your screen to share your problem! Good questions with minimal reproducible examples are most likely to get good answers. See the [`reprex`](https://reprex.tidyverse.org/) package to enable you do this easily.
+:::
+
+- [Biostars](https://www.biostars.org/)
+- [Bioinformatics StackExchange](https://bioinformatics.stackexchange.com/)
+- [Bioconductor Forums](https://support.bioconductor.org/)
+
+## Other courses
+- [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/) Book using SingleCellExperiment based approaches as alternative to `Seruat`.
+- ["Best practices single cell"](https://www.sc-best-practices.org/) Python based guide to single cell sequencing best practices
+

@@ -1,0 +1,49 @@
+---
+  title: "Installation"
+---
+
+## Installing R and RStudio
+
+![](images/clipboard-4288920375.png)
+
+### Download and Install R
+
+We need you to work on R version 4.4.0 or later for this course. If you have a previous version of R please remove it before you install this version. Please check before that your computer meets the requirements of the software.
+
+-   From a University managed computer: Use the Install University Applications functionality. Note that this only works if you are on campus or if you are using VPN to connect to the University. If you do not have access via VPN you can set it up following CSD advice. Alternatively, you can follow the options below. 
+
+-   For windows users: [R v4.4.1](https://cran.r-project.org/bin/windows/base/old/4.4.1/R-4.4.1-win.exe)
+
+-   For macOS users: [R v4.4.1](https://cran.r-project.org/bin/macosx/base/R-4.4.1.pkg)
+
+### Install extras
+
+-   We will be installing some package which require compiling from the source code. To do this:
+
+-   If you are working on Windows you will need to install [Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe)
+
+-   If you are working on macOS you should have installed XQuartz (but check before installing it as you may already have it)
+
+### RStudio
+
+Download and install (or update) [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download)
+
+## Installing packages
+
+-   Open RStudio Download this [zip file](install.zip) and unzip it.
+
+-   Set your working directory to where you have unzipped that download zip file.
+
+```{r}
+#| eval: false
+setwd("C:/Projects/SingleCellCourse")
+```
+
+
+-   Open the install.R script in RStudio
+
+-   Press the Source button (see picture below) which will trigger the installation of all packages needed to undertake the course materials.
+
+![](images/source.png){fig-align="center"}
+
+-   The process might be lengthy so do not worry, you can leave the computer unattended while the installation continues.

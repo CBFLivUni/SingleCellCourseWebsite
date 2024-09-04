@@ -1,0 +1,9 @@
+---
+  title: "Resources"
+---
+## Lectures and practicals
+  
+Course resources include lecture videos and detailed practicals with prepared datasets.
+
+Links to these will be circulated via Microsoft Teams as the course commences.
+
