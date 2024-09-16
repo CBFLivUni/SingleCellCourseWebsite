@@ -30,12 +30,12 @@ Download and install (or update) [RStudio Desktop](https://www.rstudio.com/produ
 
 ## Installing packages
 
--   Open RStudio Download this [zip file](install.zip) and unzip it.
+-   Open RStudio Download this [zip file](https://www.dropbox.com/scl/fi/zd8dqg6u4qhm3czyhfdku/install.zip?rlkey=r6p9lwvv8tgze3boq4xxy82ff&st=rhbup5jd&dl=1) and unzip it.
 
 -   Set your working directory to where you have unzipped that download zip file e.g
 ```{r}
 #| eval: false
-setwd("C:/Projects/SingleCellCourse")
+setwd("C:/Projects/SingleCellCourse/install")
 ```
 
 -   Open the install.R script in RStudio
