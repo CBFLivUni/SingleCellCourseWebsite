@@ -18,7 +18,7 @@
     "href": "install.html#installing-packages",
     "title": "Installation",
     "section": "Installing packages",
-    "text": "Installing packages\n\nOpen RStudio Download this zip file and unzip it.\nSet your working directory to where you have unzipped that download zip file e.g\n\n\nsetwd(\"C:/Projects/SingleCellCourse\")\n\n\nOpen the install.R script in RStudio\nPress the Source button (see picture below) which will trigger the installation of all packages needed to undertake the course materials.\n\n\n\n\n\n\n\nThe process might be lengthy so do not worry, you can leave the computer unattended while the installation continues."
+    "text": "Installing packages\n\nOpen RStudio Download this zip file and unzip it.\nSet your working directory to where you have unzipped that download zip file e.g\n\n\nsetwd(\"C:/Projects/SingleCellCourse/install\")\n\n\nOpen the install.R script in RStudio\nPress the Source button (see picture below) which will trigger the installation of all packages needed to undertake the course materials.\n\n\n\n\n\n\n\nThe process might be lengthy so do not worry, you can leave the computer unattended while the installation continues."
   },
   {
     "objectID": "index.html#welcome",
