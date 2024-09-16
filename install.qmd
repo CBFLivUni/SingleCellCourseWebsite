@@ -30,7 +30,7 @@ Download and install (or update) [RStudio Desktop](https://www.rstudio.com/produ
 
 ## Installing packages
 
--   Open RStudio Download this [zip file](https://www.dropbox.com/scl/fi/zd8dqg6u4qhm3czyhfdku/install.zip?rlkey=r6p9lwvv8tgze3boq4xxy82ff&st=rhbup5jd&dl=1) and unzip it.
+-   Open RStudio Download this [zip file](https://www.dropbox.com/scl/fi/6dm3w8plnekqcroove07h/install.zip?rlkey=z28strp6tapt26dx0bk3m2oe0&st=jcnfsy9g&dl=1) and unzip it.
 
 -   Set your working directory to where you have unzipped that download zip file e.g
 ```{r}
