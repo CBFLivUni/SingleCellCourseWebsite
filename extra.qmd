@@ -12,11 +12,57 @@ Aside from this course there are a number of forums where you can ask search pas
 On forums you won't be sharing your screen to share your problem! Good questions with minimal reproducible examples are most likely to get good answers. See the [`reprex`](https://reprex.tidyverse.org/) package to enable you do this easily.
 :::
 
-- [Biostars](https://www.biostars.org/)
-- [Bioinformatics StackExchange](https://bioinformatics.stackexchange.com/)
-- [Bioconductor Forums](https://support.bioconductor.org/)
+-   [Biostars](https://www.biostars.org/)
+-   [Bioinformatics StackExchange](https://bioinformatics.stackexchange.com/)
+-   [Bioconductor Forums](https://support.bioconductor.org/)
+
+## Cancer dataset analysis
+
+Cancer single cell sequencing datasets may have a mixture of healthy and cancer cells. There are specialised tools for this sort of data:
+
+-   [Infercnv](https://github.com/broadinstitute/infercnv) infers copy number variants based on gene expression -
+
+-   [scATOMIC](https://github.com/abelson-lab/scATOMIC) uses a large dataset of cancer cell line scRNA-seq along with a hierarchal cell annotation model to identify normal cell types and cancer cell types
+
+## Trajectory analysis
+
+Trajectory analysis helps map how individual cells change and develop over time e.g cell differentiation.
+
+[Monocle3](https://cole-trapnell-lab.github.io/monocle3/docs/trajectories/) package is useful for constructing single-cell trajectories.
+
+## Multimodal data integration
+
+In multimodal data, multiple omic measurements are taken within the same cell.
+
+### scATAC-seq
+
+-   [ArchR paper](https://www.nature.com/articles/s41588-021-00790-6)
+
+-   [ArchR tutorial](https://www.archrproject.com/bookdown/index.html)
+
+-   [ArchR notebook](https://github.com/galib36/NorthernBUG13_multiome_workshop/blob/main/Northern_BUG_workshop.ipynb)
+
+### CITE-seq
+
+[Seurat vignette](https://satijalab.org/seurat/articles/multimodal_vignette)
+
+## Spatial integration
+
+Seurat can also be used to analyse 10X Visium spatial transcriptomics data and scRNA-seq data can be projected onto this spatial data. There are a good set of tutorials here:
+
+[Seurat vignette](https://satijalab.org/seurat/articles/spatial_vignette)
+
+### Ligand-receptor
+
+It is useful to infer signalling that might be occurring between cell types in a sample
+
+-   [CellPhoneDB](https://cellphonedb.readthedocs.io/en/latest) Python based ligand-receptor integration tool -
+
+-   [CellChat](https://github.com/sqjin/CellChat) R based tool for cell-cell communication inference
+
+-   [NicheNet](https://github.com/saeyslab/nichenetr) R based tool for identification of ligands driving observed gene expression changes between experimental conditions
 
 ## Other courses
-- [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/) Book using SingleCellExperiment based approaches as alternative to `Seruat`.
-- ["Best practices single cell"](https://www.sc-best-practices.org/) Python based guide to single cell sequencing best practices
 
+-   [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/) Book using SingleCellExperiment based approaches as alternative to `Seruat`.
+-   ["Best practices single cell"](https://www.sc-best-practices.org/) Python based guide to single cell sequencing best practices
