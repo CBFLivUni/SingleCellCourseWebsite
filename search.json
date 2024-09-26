@@ -84,6 +84,34 @@
     "text": "Aside from this course there are a number of forums where you can ask search past questions and ask for help.\n\n\n\n\n\n\nReproducible examples\n\n\n\nOn forums you won’t be sharing your screen to share your problem! Good questions with minimal reproducible examples are most likely to get good answers. See the reprex package to enable you do this easily.\n\n\n\nBiostars\nBioinformatics StackExchange\nBioconductor Forums"
   },
   {
+    "objectID": "extra.html#cancer-dataset-analysis",
+    "href": "extra.html#cancer-dataset-analysis",
+    "title": "Extra Resources",
+    "section": "Cancer dataset analysis",
+    "text": "Cancer dataset analysis\nCancer single cell sequencing datasets may have a mixture of healthy and cancer cells. There are specialised tools for this sort of data:\n\nInfercnv infers copy number variants based on gene expression -\nscATOMIC uses a large dataset of cancer cell line scRNA-seq along with a hierarchal cell annotation model to identify normal cell types and cancer cell types"
+  },
+  {
+    "objectID": "extra.html#trajectory-analysis",
+    "href": "extra.html#trajectory-analysis",
+    "title": "Extra Resources",
+    "section": "Trajectory analysis",
+    "text": "Trajectory analysis\nTrajectory analysis helps map how individual cells change and develop over time e.g cell differentiation.\nMonocle3 package is useful for constructing single-cell trajectories."
+  },
+  {
+    "objectID": "extra.html#multimodal-data-integration",
+    "href": "extra.html#multimodal-data-integration",
+    "title": "Extra Resources",
+    "section": "Multimodal data integration",
+    "text": "Multimodal data integration\nIn multimodal data, multiple omic measurements are taken within the same cell.\n\nscATAC-seq\n\nArchR paper\nArchR tutorial\nArchR notebook\n\n\n\nCITE-seq\nSeurat vignette"
+  },
+  {
+    "objectID": "extra.html#spatial-integration",
+    "href": "extra.html#spatial-integration",
+    "title": "Extra Resources",
+    "section": "Spatial integration",
+    "text": "Spatial integration\nSeurat can also be used to analyse 10X Visium spatial transcriptomics data and scRNA-seq data can be projected onto this spatial data. There are a good set of tutorials here:\nSeurat vignette\n\nLigand-receptor\nIt is useful to infer signalling that might be occurring between cell types in a sample\n\nCellPhoneDB Python based ligand-receptor integration tool -\nCellChat R based tool for cell-cell communication inference\nNicheNet R based tool for identification of ligands driving observed gene expression changes between experimental conditions"
+  },
+  {
     "objectID": "extra.html#other-courses",
     "href": "extra.html#other-courses",
     "title": "Extra Resources",

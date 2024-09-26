@@ -122,6 +122,17 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#getting-help" id="toc-getting-help" class="nav-link active" data-scroll-target="#getting-help">Getting help</a></li>
+  <li><a href="#cancer-dataset-analysis" id="toc-cancer-dataset-analysis" class="nav-link" data-scroll-target="#cancer-dataset-analysis">Cancer dataset analysis</a></li>
+  <li><a href="#trajectory-analysis" id="toc-trajectory-analysis" class="nav-link" data-scroll-target="#trajectory-analysis">Trajectory analysis</a></li>
+  <li><a href="#multimodal-data-integration" id="toc-multimodal-data-integration" class="nav-link" data-scroll-target="#multimodal-data-integration">Multimodal data integration</a>
+  <ul>
+  <li><a href="#scatac-seq" id="toc-scatac-seq" class="nav-link" data-scroll-target="#scatac-seq">scATAC-seq</a></li>
+  <li><a href="#cite-seq" id="toc-cite-seq" class="nav-link" data-scroll-target="#cite-seq">CITE-seq</a></li>
+  </ul></li>
+  <li><a href="#spatial-integration" id="toc-spatial-integration" class="nav-link" data-scroll-target="#spatial-integration">Spatial integration</a>
+  <ul>
+  <li><a href="#ligand-receptor" id="toc-ligand-receptor" class="nav-link" data-scroll-target="#ligand-receptor">Ligand-receptor</a></li>
+  </ul></li>
   <li><a href="#other-courses" id="toc-other-courses" class="nav-link" data-scroll-target="#other-courses">Other courses</a></li>
   </ul>
 </nav>
@@ -167,6 +178,49 @@ Reproducible examples
 <li><a href="https://bioinformatics.stackexchange.com/">Bioinformatics StackExchange</a></li>
 <li><a href="https://support.bioconductor.org/">Bioconductor Forums</a></li>
 </ul>
+</section>
+<section id="cancer-dataset-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="cancer-dataset-analysis">Cancer dataset analysis</h2>
+<p>Cancer single cell sequencing datasets may have a mixture of healthy and cancer cells. There are specialised tools for this sort of data:</p>
+<ul>
+<li><p><a href="https://github.com/broadinstitute/infercnv">Infercnv</a> infers copy number variants based on gene expression -</p></li>
+<li><p><a href="https://github.com/abelson-lab/scATOMIC">scATOMIC</a> uses a large dataset of cancer cell line scRNA-seq along with a hierarchal cell annotation model to identify normal cell types and cancer cell types</p></li>
+</ul>
+</section>
+<section id="trajectory-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="trajectory-analysis">Trajectory analysis</h2>
+<p>Trajectory analysis helps map how individual cells change and develop over time e.g cell differentiation.</p>
+<p><a href="https://cole-trapnell-lab.github.io/monocle3/docs/trajectories/">Monocle3</a> package is useful for constructing single-cell trajectories.</p>
+</section>
+<section id="multimodal-data-integration" class="level2">
+<h2 class="anchored" data-anchor-id="multimodal-data-integration">Multimodal data integration</h2>
+<p>In multimodal data, multiple omic measurements are taken within the same cell.</p>
+<section id="scatac-seq" class="level3">
+<h3 class="anchored" data-anchor-id="scatac-seq">scATAC-seq</h3>
+<ul>
+<li><p><a href="https://www.nature.com/articles/s41588-021-00790-6">ArchR paper</a></p></li>
+<li><p><a href="https://www.archrproject.com/bookdown/index.html">ArchR tutorial</a></p></li>
+<li><p><a href="https://github.com/galib36/NorthernBUG13_multiome_workshop/blob/main/Northern_BUG_workshop.ipynb">ArchR notebook</a></p></li>
+</ul>
+</section>
+<section id="cite-seq" class="level3">
+<h3 class="anchored" data-anchor-id="cite-seq">CITE-seq</h3>
+<p><a href="https://satijalab.org/seurat/articles/multimodal_vignette">Seurat vignette</a></p>
+</section>
+</section>
+<section id="spatial-integration" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-integration">Spatial integration</h2>
+<p>Seurat can also be used to analyse 10X Visium spatial transcriptomics data and scRNA-seq data can be projected onto this spatial data. There are a good set of tutorials here:</p>
+<p><a href="https://satijalab.org/seurat/articles/spatial_vignette">Seurat vignette</a></p>
+<section id="ligand-receptor" class="level3">
+<h3 class="anchored" data-anchor-id="ligand-receptor">Ligand-receptor</h3>
+<p>It is useful to infer signalling that might be occurring between cell types in a sample</p>
+<ul>
+<li><p><a href="https://cellphonedb.readthedocs.io/en/latest">CellPhoneDB</a> Python based ligand-receptor integration tool -</p></li>
+<li><p><a href="https://github.com/sqjin/CellChat">CellChat</a> R based tool for cell-cell communication inference</p></li>
+<li><p><a href="https://github.com/saeyslab/nichenetr">NicheNet</a> R based tool for identification of ligands driving observed gene expression changes between experimental conditions</p></li>
+</ul>
+</section>
 </section>
 <section id="other-courses" class="level2">
 <h2 class="anchored" data-anchor-id="other-courses">Other courses</h2>
