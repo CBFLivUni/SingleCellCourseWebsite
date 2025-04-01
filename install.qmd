@@ -12,17 +12,15 @@ We need you to work on R version 4.4.0 or later for this course. If you have a p
 
 -   From a University managed computer: Use the Install University Applications functionality. Note that this only works if you are on campus or if you are using VPN to connect to the University. If you do not have access via VPN you can set it up following CSD advice. Alternatively, you can follow the options below. 
 
--   For windows users: [R v4.4.1](https://cran.r-project.org/bin/windows/base/old/4.4.1/R-4.4.1-win.exe)
+-   For windows users: [R v4.4.3](https://cran.r-project.org/bin/windows/base/R-4.4.3-win.exe)
 
--   For macOS users: [R v4.4.1](https://cran.r-project.org/bin/macosx/base/R-4.4.1.pkg)
+-   For macOS users: [R v4.4.3](https://cran.r-project.org/bin/macosx/base/R-4.4.3.pkg)
 
 ### Install extras
 
 We will be installing some R packages which require compiling from the source code. To do this:
 
--   If you are working on Windows you will need to install [Rtools v 4.4](https://cran.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6104-6039.exe)
-
--   If you are working on macOS you should have installed XQuartz (but check before installing it as you may already have it)
+-   If you are working on Windows you will need to install [Rtools v4.4](https://cran.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6459-6401.exe)
 
 ### RStudio
 
