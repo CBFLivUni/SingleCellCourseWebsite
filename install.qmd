@@ -14,7 +14,7 @@ We need you to work on R version 4.4.0 or later for this course. If you have a p
 
 -   For windows users: [R v4.4.3](https://cran.r-project.org/bin/windows/base/R-4.4.3-win.exe)
 
--   For macOS users: [R v4.4.3](https://cran.r-project.org/bin/macosx/base/R-4.4.3.pkg)
+-   For macOS users: [R v4.4.3](https://cran.r-project.org/bin/macosx)
 
 ### Install extras
 
