@@ -28,7 +28,7 @@ Download and install (or update) [RStudio Desktop](https://www.rstudio.com/produ
 
 ## Installing packages
 
--   Open RStudio Download this [zip file](http://pgb.liv.ac.uk/~jsoul/refresher.zip) and unzip it.
+-   Open RStudio Download this [zip file](https://pgb.liv.ac.uk/~jsoul/refresher.zip) and unzip it.
 
 -   Set your working directory to where you have unzipped that download zip file e.g
 ```{r}
